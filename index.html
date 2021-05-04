@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+    </div>
+    <div> 
+        <h1>Form for register user</h1>
+        <br>
+        <br>
+        <br>
+        <h3>Personal data</h3>
+    </div> 
+    <div> 
+        <form action="" method="post">  
+            <fieldset>
+                <div>
+                    <label for="nome">Name</label> 
+                        <input for="nome" type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label>Surname</label>
+                    <input type="text" surname="surname" id="surname" >
+                </div>
+                <div>
+                <label>email</label>
+                    <input type= "email" name="email" id="email">
+                </label>
+                </div>
+                <div>
+                    <label>City</label>
+                <select type="country" name="city" id= "city">
+                    <option select desabel value=""> ----- </option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Mato Grosso</option>
+                    <option value="BA">Bahia</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </div>  
+                </select>
+                 <div>                       
+                    <input id="teste" type="radio" name="radio" value="man">man
+                    <input type="radio" name="radio" id="woman">woman
+                    <input type="radio" name="radio" id="other">other  
+                </div>
+            </fieldset>
+            <button type="submit" form="new_register" id="new_registerBtn" class="new_registerBtn"> Register
+            </button>
+        </form>
+    </div>
+</body>
+</html>
+
+
